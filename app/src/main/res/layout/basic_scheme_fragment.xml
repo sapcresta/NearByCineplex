@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD8E2E6">
+
+    <com.example.sapana.nearbycineplex.view.ZoomableImageView
+        android:id="@+id/zoomable_image"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:text="Your booked Seats"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/medium_sea_green"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:text="Available Seats"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:text="Already Booked Seats"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/holo_red_light"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:text="Sold out"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp" />
+
+    <Button
+        android:id="@+id/nextfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:background="@color/red"
+        android:text="NEXT"
+        android:textColor="@color/white" />
+</RelativeLayout>

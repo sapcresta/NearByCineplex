@@ -1,0 +1,10 @@
+#Thu Aug 09 08:49:49 NPT 2018
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=F\:\\8thsemnote\\paypal\\NEARBYCINEPLEX\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=F\:\\8thsemnote\\paypal\\NEARBYCINEPLEX\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.0=F\:\\8thsemnote\\paypal\\NEARBYCINEPLEX\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sapana.nearbycineplex">
+    android:installLocation="preferExternal">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ncicon2"
+        android:label="NearbyCineplex"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:parentActivityName=".Theatre_Show_List" />
+        <activity android:name=".Main3Activity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".newregister"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".newfeedback" />
+        <activity android:name=".UsersActivity" />
+        <activity
+            android:name=".nowshowing"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".future" />
+        <activity
+            android:name=".booknow"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Config.paynow"
+            android:parentActivityName=".booknow" />
+        <activity android:name=".Theatre_Show_List" />
+        <activity android:name=".showingMovie1" />
+        <activity android:name=".showingMovie2" />
+        <activity android:name=".showingMovie3" />
+        <activity android:name=".showingMovie4" />
+        <activity
+            android:name=".upcomingMovie"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".upcomingMovie1" />
+        <activity android:name=".upcomingMovie2" />
+        <activity android:name=".upcomingMovie3" />
+        <activity android:name=".upcomingMovie4" />
+        <activity
+            android:name=".hallList1"
+            android:parentActivityName=".Theatre_Show_List" />
+        <activity
+            android:name=".HelpDeskCentre"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".nowshowing" />
+        <activity android:name=".Viewall" />
+        <activity android:name=".hallList4" />
+        <activity android:name=".hallList2" />
+        <activity android:name=".hallList3" />
+        <activity android:name=".Config.paymentDetails"></activity>
+    </application>
+
+</manifest>

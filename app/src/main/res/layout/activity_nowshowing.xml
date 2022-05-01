@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".nowshowing">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="374dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nowshowing_button"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"/>
+
+            <ImageButton
+                android:id="@+id/nshowingMovie1"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                app:srcCompat="@drawable/bhaire" />
+            <ImageButton
+                android:id="@+id/nshowingMovie2"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:background="@color/blue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/dhadak" />
+            <ImageButton
+                android:id="@+id/nshowingMovie3"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:background="@color/blue"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/romeomuna" />
+            <ImageButton
+                android:id="@+id/nshowingMovie4"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@color/blue"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/theequalizer2"/>
+        </LinearLayout>
+    </ScrollView>

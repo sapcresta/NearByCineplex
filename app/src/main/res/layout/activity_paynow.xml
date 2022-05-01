@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+   tools:context=".Config.paynow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/appCompatTextViewUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Our Payment Partner:"
+            android:textColor="@color/red"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/esewa" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/proceed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Proceed to Payment?"
+            android:textColor="@color/green"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/edtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:hint="Your Amount" />
+
+        <Button
+            android:id="@+id/paylogin"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="154dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/red"
+
+            android:text="Paynow"
+            android:textColor="@color/colorwhite" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:background="@color/red"
+        app:itemIconTint="@color/colorwhite"
+        app:itemTextColor="@color/colorwhite"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>
+

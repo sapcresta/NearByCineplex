@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <item
+        android:id="@+id/nowshowing"
+        android:title="Now Showing"
+        android:icon="@drawable/ic_local_movies_black_24dp">
+
+
+    </item>
+    <item
+        android:id="@+id/comingsoon"
+        android:title="Coming Soon"
+        android:icon="@drawable/ic_local_movies_black_24dp">
+
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/helpCentre"
+        android:title="Help Centre"
+        android:icon="@drawable/ic_help_black_24dp">
+
+
+    </item>
+</menu>

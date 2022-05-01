@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/grey">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Welcome to your profile!"
+        android:textColor="@color/colorwhite"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:background="@color/red"
+        android:text="@string/bookingdetails"
+        android:textColor="@color/colorwhite"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:background="@color/red"
+        android:text="Book Now!"
+        android:textColor="@color/colorwhite"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/ic_account_circle_black_24dp" />
+
+</RelativeLayout>
